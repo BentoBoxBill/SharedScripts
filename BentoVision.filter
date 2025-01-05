@@ -1,0 +1,245 @@
+#-------------------------------------------
+#Author: William "BentoBoxBill" Fernandez
+#Creation date: Dec-30-24
+#Ver 0.1 [Basic Filter]
+#-------------------------------------------
+
+#------------------------------------
+#  Quest items Edited: Dec-30-24
+#------------------------------------
+
+Show
+Class == "Quest Items"
+SetFontSize 45
+SetTextColor 74 230 58 255
+SetBorderColor 74 230 58 255
+SetBackgroundColor 20 20 0 255
+PlayEffect Green Temp
+MinimapIcon 0 Green Pentagon
+PlayAlertSound 3 300 
+
+#-------------------------------------------
+# Overrides - Uniques, Valuables Edited: Dec-30-24
+#-------------------------------------------
+
+Show
+Rarity Unique
+SetTextColor 255 105 180 255
+SetBorderColor 127 0 152 255
+SetBackgroundColor 45 20 50 225
+MinimapIcon 1 Purple Star
+PlayEffect Purple
+PlayAlertSound 2 300
+SetFontSize 40
+
+#------------------------------------------
+# Blue boosters Edited: Dec-30-24
+#------------------------------------------
+
+Show
+Class "Currency"
+BaseType "Orb of Augmentation" "Orb of Transmutation" "Transmutation Shard"
+SetTextColor 173 222 255 255
+SetBorderColor 140 151 255 145
+SetBackgroundColor 0 2 150 175
+PlayEffect Blue 
+SetFontSize 30
+
+#-----------------------------------------
+# Yellow boosters Edited: Dec-30-24
+#-----------------------------------------
+
+Show
+Class "Currency"
+BaseType "Regal Shard" "Regal Orb" "Chaos Orb" "Exalted Orb" "Orb of Alchemy" "Divine Orb"
+SetTextColor 255 230 0 255
+SetBorderColor 0 0 0 145
+SetBackgroundColor 222 109 0 175
+PlayEffect Yellow 
+SetFontSize 30
+
+#----------------------------------------
+# Red booster Edited: Dec-30-24
+#----------------------------------------
+
+Show
+Class "Currency"
+BaseType "Vaal Orb"
+SetTextColor 0 0 0 255
+SetBorderColor 255 255 255 145
+SetBackgroundColor 141 0 0 175
+PlayEffect Red 
+SetFontSize 30
+
+#----------------------------------------
+# White boosters Edited: Dec-30-24
+#----------------------------------------
+
+Show
+Class "Currency"
+BaseType "Chance Shard" "Orb of Chance" "Orb of Annulment" "Mirror of Kalandra"
+SetTextColor 23 145 235 255
+SetBorderColor 23 145 235 145
+SetBackgroundColor 255 255 255 200
+PlayEffect White
+SetFontSize 30
+
+#---------------------------------------
+# Quality booster Edited: Dec-30-24
+#---------------------------------------
+
+Show
+Class "Currency"
+BaseType "Armourer's Scrap" "Arcanist's Etcher" "Artificer's Orb" "Blacksmith's Whetstone" "Artificer's Shard" "Glassblower's Bauble"
+SetTextColor 30 220 0 255
+SetBorderColor 0 140 40 145
+SetBackgroundColor 72 69 59 185
+PlayEffect Green
+SetFontSize 30
+
+#----------------------------------------
+# Skill Gem boosters Edited: Dec-30-24
+#----------------------------------------
+
+Show
+Class "Currency"
+BaseType "Gemcutter's Prism" "Lesser Jeweller's Orb" "Greater Jeweller's Orb" "Perfect Jeweller's Orb"
+SetTextColor 202 145 0 255
+SetBorderColor 140 95 40 145
+SetBackgroundColor 72 69 59 175
+PlayEffect Brown
+SetFontSize 30
+
+#----------------------------------------
+# Socketables Edited: Dec-30-24
+#----------------------------------------
+
+Show
+BaseType "Uncut Skill Gem"
+SetTextColor 230 106 107 255
+SetBorderColor 255 255 255 255
+SetBackgroundColor 50 48 64 195
+PlayEffect White
+SetFontSize 30
+
+Show
+BaseType "Uncut Support Gem"
+SetTextColor 255 222 89 255
+SetBorderColor 255 255 255 255
+SetBackgroundColor 50 48 64 195
+PlayEffect White
+SetFontSize 30
+
+
+Show
+BaseType "Uncut Spirit Gem"
+SetTextColor 106 208 234 255
+SetBorderColor 255 255 255 255
+SetBackgroundColor 50 48 64 195
+PlayEffect White
+SetFontSize 30
+
+
+#---------------------------------------
+# Runes & Charms Edited: Dec-30-24
+#---------------------------------------
+
+
+Show 
+BaseType "Rune" "Charm"
+SetTextColor 0 240 190 255
+SetBorderColor 0 240 190 255
+SetBackgroundColor 50 48 64 195
+PlayEffect Cyan
+SetFontSize 30
+
+Show
+Class "Jewel"
+SetTextColor 0 240 190 255
+SetBorderColor 0 240 190 255
+SetBackgroundColor 50 48 64 195
+PlayEffect Cyan
+SetFontSize 30
+
+
+#----------------------------------------
+# Essence, Catalyst, Distilled Edited: Dec-30-24
+#----------------------------------------
+
+Show
+Class "Currency"
+BaseType "Distilled" "Catalyst" "Essence of"
+SetTextColor 30 0 77 255
+SetBorderColor 30 0 77 255
+SetBackgroundColor 181 134 255 175
+PlayEffect Pink
+SetFontSize 30
+
+#---------------------------------------
+# Trial Coins Edited: Dec-30-24
+#---------------------------------------
+
+Show
+BaseType "Barya" "Ultimatum"
+SetTextColor 255 207 255 255
+SetBorderColor 255 207 255 255
+SetBackgroundColor 65 20 80 255
+SetFontSize 30
+
+#--------------------------------------
+# Gold Edited: Jan-04-25
+#--------------------------------------
+
+Show
+Class "Currency"
+BaseType "Gold" "Exotic Coinage"
+SetTextColor 255 215 0 255
+SetBorderColor 255 215 0 255
+SetBackgroundColor 0 0 0 180
+
+#--------------------------------------
+# Hide & Show Rules Block Edited Jan-05-25
+#--------------------------------------
+
+# Show Scrolls of Wisdom
+Show
+BaseType "Scroll of Wisdom"
+SetTextColor 255 255 255 255
+SetBorderColor 255 215 0 255
+SetBackgroundColor 0 0 0 255
+SetFontSize 25
+
+#Show all magic items
+Show
+Rarity Magic 
+SetTextColor 0 0 139 255
+SetBorderColor 0 0 139 200
+SetBackgroundColor 135 206 235 185
+SetFontSize 30
+
+#Show all Rare items
+Show
+Rarity Rare
+SetTextColor  218 165 32 255
+SetBorderColor 218 165 32 200
+SetBackgroundColor 101 67 33 200
+SetFontSize 35
+
+
+#Show only Normal items with Sockets
+Show
+Rarity Normal
+Sockets < 6
+SetTextColor 255 255 255 255
+SetBorderColor 255 255 255 255
+SetBackgroundColor 0 0 0 255
+SetFontSize 30
+Continue
+
+Hide
+Rarity Normal
+Sockets < 1
+SetTextColor 255 255 255 255
+SetBorderColor 255 255 255 255
+SetBackgroundColor 0 0 0 255
+SetFontSize 25
