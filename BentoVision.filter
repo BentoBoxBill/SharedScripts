@@ -36,30 +36,30 @@ SetFontSize 40
 #Endgame loot rules Created Jan-26-25
 #------------------------------------------
 
+# Waystones - Tier 16
 Show
 WaystoneTier 16
 Class "Waystones"
 SetFontSize 35
-SetTextColor 85, 76, 16 255
+SetTextColor 85 76 16 255
 SetBackgroundColor 255 251 159 154
 SetBorderColor 255 255 255 255
 PlayEffect Yellow
 MinimapIcon 1 Yellow Square
 PlayAlertSound 10 300
-Continue
 
+# Waystones - Tier 15
 Show
 WaystoneTier 15
 Class "Waystones"
 SetFontSize 31
 SetTextColor 103 13 170 255
-SetBackgroundColor 252 195 259 201
+SetBackgroundColor 252 195 255 201
 SetBorderColor 0 255 255 255
 PlayEffect Pink
 MinimapIcon 1 Pink Square
-Continue
 
-
+# Waystones - Tier 12 to 14
 Show
 WaystoneTier >= 12
 WaystoneTier <= 14
@@ -70,8 +70,8 @@ SetBackgroundColor 233 122 22 206
 SetBorderColor 0 0 0 255
 PlayEffect Green
 MinimapIcon 1 Green Square
-Continue
 
+# Waystones - Tier 6 to 11
 Show
 WaystoneTier >= 6
 WaystoneTier <= 11
@@ -81,8 +81,8 @@ SetTextColor 0 0 0 255
 SetBackgroundColor 80 171 191 255
 PlayEffect White Temp
 MinimapIcon 1 White Square
-Continue
 
+# Waystones - Tier 1 to 5
 Show
 WaystoneTier >= 1
 WaystoneTier <= 5
@@ -93,7 +93,7 @@ SetTextColor 0 0 0 255
 SetBorderColor 0 0 0 255
 PlayEffect White Temp
 MinimapIcon 2 White Square
-Continue
+
 
 
 #------------------------------------------
