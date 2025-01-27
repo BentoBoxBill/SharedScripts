@@ -19,7 +19,7 @@ MinimapIcon 0 Green Pentagon
 PlayAlertSound 3 300 
 
 #-------------------------------------------
-# Overrides - Uniques, Valuables Edited: Dec-30-24
+# Overrides - Uniques, Valuables Edited: Jan-12-25
 #-------------------------------------------
 
 Show
@@ -33,7 +33,72 @@ PlayAlertSound 2 300
 SetFontSize 40
 
 #------------------------------------------
-# Blue boosters Edited: Dec-30-24
+#Endgame loot rules Created Jan-26-25
+#------------------------------------------
+
+Show
+WaystoneTier 16
+Class "Waystones"
+SetFontSize 35
+SetTextColor 85, 76, 16 255
+SetBackgroundColor 255 251 159 154
+SetBorderColor 255 255 255 255
+PlayEffect Yellow
+MinimapIcon 1 Yellow Square
+PlayAlertSound 10 300
+Continue
+
+Show
+WaystoneTier 15
+Class "Waystones"
+SetFontSize 31
+SetTextColor 103 13 170 255
+SetBackgroundColor 252 195 259 201
+SetBorderColor 0 255 255 255
+PlayEffect Pink
+MinimapIcon 1 Pink Square
+Continue
+
+
+Show
+WaystoneTier >= 12
+WaystoneTier <= 14
+Class "Waystones"
+SetFontSize 28
+SetTextColor 16 228 65 255
+SetBackgroundColor 233 122 22 206
+SetBorderColor 0 0 0 255
+PlayEffect Green
+MinimapIcon 1 Green Square
+Continue
+
+Show
+WaystoneTier >= 6
+WaystoneTier <= 11
+Class "Waystones"
+SetFontSize 25
+SetTextColor 0 0 0 255
+SetBackgroundColor 80 171 191 255
+PlayEffect White Temp
+MinimapIcon 1 White Square
+Continue
+
+Show
+WaystoneTier >= 1
+WaystoneTier <= 5
+Class "Waystones"
+SetFontSize 22
+SetBackgroundColor 255 255 255 255
+SetTextColor 0 0 0 255
+SetBorderColor 0 0 0 255
+PlayEffect White Temp
+MinimapIcon 2 White Square
+Continue
+
+
+
+#------------------------------------------
+# Blue boosters Edited: Jan-12-25
 #------------------------------------------
 
 Show
@@ -43,10 +108,11 @@ SetTextColor 173 222 255 255
 SetBorderColor 140 151 255 145
 SetBackgroundColor 0 2 150 175
 PlayEffect Blue 
+MinimapIcon 2 Blue Circle
 SetFontSize 30
 
 #-----------------------------------------
-# Yellow boosters Edited: Dec-30-24
+# Yellow boosters Edited: Jan-12-25
 #-----------------------------------------
 
 Show
@@ -55,11 +121,12 @@ BaseType "Regal Shard" "Regal Orb" "Chaos Orb" "Exalted Orb" "Orb of Alchemy" "D
 SetTextColor 255 230 0 255
 SetBorderColor 0 0 0 145
 SetBackgroundColor 222 109 0 175
-PlayEffect Yellow 
+PlayEffect Yellow
+MinimapIcon 2 Yellow Circle
 SetFontSize 30
 
 #----------------------------------------
-# Red booster Edited: Dec-30-24
+# Red booster Edited: Jan-12-25
 #----------------------------------------
 
 Show
@@ -69,10 +136,11 @@ SetTextColor 0 0 0 255
 SetBorderColor 255 255 255 145
 SetBackgroundColor 141 0 0 175
 PlayEffect Red 
+MinimapIcon 2 Red Circle
 SetFontSize 30
 
 #----------------------------------------
-# White boosters Edited: Dec-30-24
+# White boosters Edited: Jan-12-25
 #----------------------------------------
 
 Show
@@ -82,10 +150,11 @@ SetTextColor 23 145 235 255
 SetBorderColor 23 145 235 145
 SetBackgroundColor 255 255 255 200
 PlayEffect White
+MinimapIcon 2 White Circle
 SetFontSize 30
 
 #---------------------------------------
-# Quality booster Edited: Dec-30-24
+# Quality booster Edited: Jan-12-25
 #---------------------------------------
 
 Show
@@ -95,10 +164,11 @@ SetTextColor 30 220 0 255
 SetBorderColor 0 140 40 145
 SetBackgroundColor 72 69 59 185
 PlayEffect Green
+MinimapIcon 2 Green Circle
 SetFontSize 30
 
 #----------------------------------------
-# Skill Gem boosters Edited: Dec-30-24
+# Skill Gem boosters Edited: Jan-12-25
 #----------------------------------------
 
 Show
@@ -108,10 +178,11 @@ SetTextColor 202 145 0 255
 SetBorderColor 140 95 40 145
 SetBackgroundColor 72 69 59 175
 PlayEffect Brown
+MinimapIcon 2 Brown Circle
 SetFontSize 30
 
 #----------------------------------------
-# Socketables Edited: Dec-30-24
+# Socketables Edited: Jan-12-25
 #----------------------------------------
 
 Show
@@ -120,6 +191,7 @@ SetTextColor 230 106 107 255
 SetBorderColor 255 255 255 255
 SetBackgroundColor 50 48 64 195
 PlayEffect White
+MinimapIcon 2 White Triangle
 SetFontSize 30
 
 Show
@@ -128,6 +200,7 @@ SetTextColor 255 222 89 255
 SetBorderColor 255 255 255 255
 SetBackgroundColor 50 48 64 195
 PlayEffect White
+MinimapIcon 2 White Triangle
 SetFontSize 30
 
 
@@ -137,11 +210,12 @@ SetTextColor 106 208 234 255
 SetBorderColor 255 255 255 255
 SetBackgroundColor 50 48 64 195
 PlayEffect White
+MinimapIcon 2 White Triangle
 SetFontSize 30
 
 
 #---------------------------------------
-# Runes & Charms Edited: Dec-30-24
+# Runes & Charms Edited: Jan-12-25
 #---------------------------------------
 
 
@@ -151,6 +225,7 @@ SetTextColor 0 240 190 255
 SetBorderColor 0 240 190 255
 SetBackgroundColor 50 48 64 195
 PlayEffect Cyan
+MinimapIcon 2 Cyan Raindrop
 SetFontSize 30
 
 Show
@@ -159,11 +234,12 @@ SetTextColor 0 240 190 255
 SetBorderColor 0 240 190 255
 SetBackgroundColor 50 48 64 195
 PlayEffect Cyan
+MinimapIcon 2 Cyan Raindrop
 SetFontSize 30
 
 
 #----------------------------------------
-# Essence, Catalyst, Distilled Edited: Dec-30-24
+# Essence, Catalyst, Distilled Edited: Jan-12-25
 #----------------------------------------
 
 Show
@@ -173,6 +249,7 @@ SetTextColor 30 0 77 255
 SetBorderColor 30 0 77 255
 SetBackgroundColor 181 134 255 175
 PlayEffect Pink
+MinimapIcon 2 Pink Cross
 SetFontSize 30
 
 #---------------------------------------
@@ -180,7 +257,7 @@ SetFontSize 30
 #---------------------------------------
 
 Show
-BaseType "Barya" "Ultimatum"
+BaseType "Barya" "Ultimatum" 
 SetTextColor 255 207 255 255
 SetBorderColor 255 207 255 255
 SetBackgroundColor 65 20 80 255
@@ -198,7 +275,7 @@ SetBorderColor 255 215 0 255
 SetBackgroundColor 0 0 0 180
 
 #--------------------------------------
-# Hide & Show Rules Block Edited Jan-06-25
+# Hide Show Rules Block Edited Jan-06-25
 #--------------------------------------
 
 # Show Scrolls of Wisdom and Sekihema Keys
