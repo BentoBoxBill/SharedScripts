@@ -1,7 +1,8 @@
 #-------------------------------------------
 #Author: William "BentoBoxBill" Fernandez
 #Creation date: Dec-30-24
-#Ver 0.3 [Waystone support added, Endgame support WIP]
+#Edited date: Jan-28-25
+#Ver 0.4 [Waystone support added, Endgame support WIP]
 #-------------------------------------------
 
 #------------------------------------
@@ -97,10 +98,41 @@ MinimapIcon 2 White Square
 
 
 #------------------------------------------
-# High Valuables Jan-26-25 WIP
+# Crafting bases Created Jan-28-25
 #------------------------------------------
 
+# Rings 
+Show
+Class "Rings"
+BaseType "Prismatic Ring" "Emerald Ring" "Ruby Ring" "Topaz Ring" "Pearl Ring" "Amethyst Ring"
+SetFontSize 35
+SetTextColor 255 151 0 0
+SetBorderColor 0 0 0 0
+SetBackgroundColor 83 0 123 0
+PlayEffect Orange Temp
+MinimapIcon 1 Orange Moon
 
+#Amulets
+Show
+Class "Amulets"
+BaseType "Amber Amulet" "Azure Amulet" "Solar Amulet" "Bloodstone Amulet"
+SetFontSize 35
+SetTextColor 0 255 209 0
+SetBorderColor 0 0 0 0
+SetBackgroundColor 121 22 16 255
+PlayEffect Red Temp
+MinimapIcon 1 Red Kite
+
+#Belts
+Show
+Class "Belts"
+BaseType "Utility Belt" "Fine Belt"
+SetFontSize 35
+SetTextColor 255 246 0 255
+SetBorderColor 0 0 0 0
+SetBackgroundColor 7 49 23 255
+PlayEffect Yellow Temp
+MinimapIcon 1 Yellow Hexagon
 
 
 #------------------------------------------
